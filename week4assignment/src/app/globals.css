@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h1{
+  font-size: 50px;
+  font-family: monospace;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  color:#0a0a0a;
+  padding: 5px;
+  font-family:monospace;
+}
+
+.gallery{
+  border-width: 10px;
+  border-color: whitesmoke;
+  border-radius: 5px;
+}

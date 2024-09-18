@@ -25,7 +25,7 @@ export default function Gallery(){
         <div id="gallery">
             <h1>Gallery</h1>
                 <button onClick={onClickPrevious}>Previous</button>
-                <image></image>
+                {image}
                 <button onClick={onClickNext}>Next</button>
         </div>
     )

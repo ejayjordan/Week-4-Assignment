@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 
-export default function Gallery(){
+export default function Gallery(props: any){
 
     const [image, setImage] = React.useState(0);
 

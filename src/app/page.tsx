@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Gallery from "./gallery";
 
+export const myArray = ["/pictures/melody1.jpg","/pictures/melody2.jpg","/pictures/threat.jpg"];
+
 export default function Home() {
-  const images = ["melody1.jpg","melody2.jpg","threat.jpg"];
   return (
     <main>
-      <Gallery images={images}/>
+      <Gallery myArray={myArray}/>
     </main>
   );
 }
